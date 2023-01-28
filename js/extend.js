@@ -5,7 +5,6 @@ class TeamMember {
     constructor(name, location) {
         this.name = name
         this.location = location
-
     }
     provideFeedback() {
         console.log(`${this.name} thank you for your feedback`);
@@ -27,7 +26,6 @@ class Instructor extends TeamMember {
     }
     createQuiz(module) {
         console.log(`please create quiz for module ${module}`);
-
     }
 
 }
