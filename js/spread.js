@@ -10,5 +10,15 @@ const fish = {
     name: 'king hilsa',
     color: 'silver'
 }
-const name = fish.name;
-console.log(name);
+// const name = fish.name;
+
+
+// const { age, name } = { name: 'anik', age: 28, profession: 'web-developer' }
+const { color } = fish
+
+console.log(color);
+
+const doubleIt = num => num * 2
+const makeDouble = numbers.map(num => num * 2)
+
+console.log(makeDouble);
